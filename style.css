@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(53, 50, 50);
+    color: rgb(168, 86, 111);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopwatch{
+    font-size: 65px;
+    font-family: monospace;
+}
+
+.buttons{
+    display: flex;
+    margin: 10px -5px 0;
+}
+.buttons button{
+    flex: 1;
+    margin: 0 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: palevioletred;
+}
